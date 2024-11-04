@@ -28,7 +28,6 @@
         devShells.default = pkgs.mkShell rec {
           packages =
             [
-              pkgs.cowsay
               pkgs.gleam
               pkgs.rebar3
               pkgs.nodejs_22

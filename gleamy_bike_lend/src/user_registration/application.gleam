@@ -33,6 +33,14 @@ pub fn create_aggregate(
   |> result.nil_error
 }
 
+pub fn find_user_registration(
+  em: UserRegistrationAggregate,
+  id,
+) -> Result(domain.UserRegistration, String) {
+  use agregat <- result.try(signal.aggregate(em, id))
+  Ok(signal.get_state(agregat))
+}
+
 pub fn send_sms_service(
   message: signal.ConsumerMessage(
     dict.Dict(String, String),

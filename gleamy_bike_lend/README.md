@@ -8,6 +8,12 @@ My first experiment will use an event store and implement the entire example wit
 
 stay tuned for more ...
 
+## A first version of User Registration.
+
+Monday, 4th of November:
+
+This module / service is responsible for registration new users. It's not yet finished and lacks validation. I will streamline it after deciding how the different modules will interact.
+
 
 [![Package Version](https://img.shields.io/hexpm/v/gleamy_bike_lend)](https://hex.pm/packages/gleamy_bike_lend)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gleamy_bike_lend/)

@@ -5,6 +5,7 @@ import gleam/io
 import gleam/otp/actor
 import gleam/result
 import signal
+import user_registration/app
 import user_registration/application as ua
 import user_registration/domain
 
@@ -80,4 +81,6 @@ pub fn main() {
 
   let code = process.call(sms_sender, signal.GetConsumerState(_), 50)
   io.debug(code)
+
+  app.main(aggregate_signal)
 }
