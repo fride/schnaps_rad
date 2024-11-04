@@ -14,6 +14,10 @@ Monday, 4th of November:
 
 This module / service is responsible for registration new users. It's not yet finished and lacks validation. I will streamline it after deciding how the different modules will interact.
 
+Things todo:
+
+- show all pending registrations in an admin view
+- validation of the inputs
 
 [![Package Version](https://img.shields.io/hexpm/v/gleamy_bike_lend)](https://hex.pm/packages/gleamy_bike_lend)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gleamy_bike_lend/)
